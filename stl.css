@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Kanit:ital,wght@0,300;1,100;1,600&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Kanit:ital,wght@0,300;1,100;1,600&family=Oswald:wght@400;500&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500;600&family=Kanit:ital,wght@0,300;1,100;1,600&family=Oswald:wght@400;500&family=Source+Code+Pro:wght@300&display=swap');
+.container{
+    display:flex;
+    background-color: black;
+    height:40vh;
+}
+
+.Pic{
+    margin-left: 50px;
+}
+
+.Pic img{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    margin-top: 25px;
+    /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+}
+.Info{
+    font: 25px;
+    color: rgb(236, 230, 240);
+    font-weight: bold;
+    /* font-family: 'Kanit', sans-serif; */
+    
+    font-family: 'Alkatra', cursive;
+    padding-left: 50px;
+    margin-top: 50px;
+
+}
+.h{
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    color: beige;
+    align-self: center;
+}
+.contact{
+    display: flex;
+    /* border:2px solid white; */
+    width:500px;
+}
+.what img{
+    width:50px;
+    height:50px;
+     padding-left: 30px;
+}
+.contact{
+    color:bisque;
+    align-self: center;
+    margin:100px;
+}
+.mail img{
+    width:70px;
+    height:50px;
+    padding-left: 20px;
+}
+.main{
+    display:flex;
+
+
+}
+.Edu h2{
+    text-align: center;
+}
+.Edu{
+    align-items: center;
+    background-color: rgb(196, 60, 26);
+    font-weight: bold;
+    border:3px solid black;
+    height: 45vh;
+    width:500px;
+    font-family: 'Alkatra', cursive;
+    color:aliceblue;
+}
+.Sk h2{
+    text-align: center;
+}
+.Sk{
+   /* margin-left: 40px; */
+   background-color: rgb(98, 185, 16);
+   border:3px solid black;
+   width:500px;
+   height:45vh;
+   font-family: 'Alkatra', cursive;
+   color:aliceblue;
+   border: 3px solid black;
+}
+   
+.skillItem{
+    display:flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.skill{
+    width: 205px;
+    height: 6px;
+    background-color: red;
+    border:3px solid black;
+}
+.hundred{
+    width:230px;
+    background-color: red;
+}
+.fifty{
+    width:125px;
+    background-color:darkgreen;
+}
+.t5{
+    width:75px;
+    background-color: yellow;
+}
+.PT h2{
+    text-align: center;
+}
+.PT{
+    border:3px solid black;
+    width:500px;
+    height:45vh;
+    background-color: rgba(150, 21, 70, 0.801);
+    font-family: 'Alkatra', cursive;
+    color:aliceblue;
+}
+
+.PT button{
+    border-radius: 50px;
+    background-color: cyan;
+    margin-left: 25px;
+}
+.PT button:hover{
+    background-color: coral;
+    color:indigo;
+    font-weight: bold;
+}
+.PT ul li{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.more{
+   display: flex;
+     justify-content: center;
+  height: 100px;
+border:3px solid rgb(13, 13, 14);
+  font-size: larger;
+  flex-direction: row;
+  background-color: rgb(28, 132, 218);
+  color:aliceblue;
+}
+.more nav{
+    margin-top: 30px;
+    
+}
+.more button{
+   border-radius: 50px;
+   width:1000px;
+   height: 30px;
+   
+}
+.cer {
+    justify-content: center;
+}
+.more button:hover{
+    background-color: gold;
+    color:darkred;
+}
